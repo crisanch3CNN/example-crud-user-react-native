@@ -45,7 +45,7 @@ const UserScreen = (props) => {
             <Avatar
               source={{
                 uri:
-                  "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg",
+                  "https://uifaces.co/our-content/donated/6MWH9Xi_.jpg",
               }}
               rounded
             />

@@ -23,8 +23,8 @@ const AddUserScreen = (props) => {
   };
 
   const saveNewUser = async () => {
-    if (state.name === "") {
-      alert("please provide a name");
+    if (state.name === "" || state.email === "" || state.phone === "") {
+      alert("please provide a name, email and phone");
     } else {
 
       try {
